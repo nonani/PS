@@ -25,7 +25,7 @@ void dijkstra(auto graph[10001]) {
     cur_i = pq.top().second;
     pq.pop();
 
-    if (dp[cur_i] < cur_d) continue;
+    
 
     for (const auto& g : graph[cur_i]) {
       int next = g.first;
