@@ -4,7 +4,7 @@ import heapq
 N, A, B = map(int, input().split())
 graph = [{} for _ in range(N+1)]
 visited = [False for _ in range(N+1)]
-dp = [1000000 for _ in range(N+1)]
+dp = [1000000000 for _ in range(N+1)]
 before_node = [0 for _ in range(N+1)]
 q = []
 dp[A] = 0
